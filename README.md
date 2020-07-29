@@ -1,9 +1,5 @@
-
-# Disclaimer
-You can only use this software on your computers or computers which you have the right to use, and I will not be responsible for any consequences and losses caused by the abuse of this software. Until you fully understand how to use this software, please run it in virtual machines only.
-
 # Introduction
-Windows Batch Deployment (you can simply call it as "WBD") is a programmable and rootkit-like remote access tool, it supports from Windows XP to Windows 10 (32-bit and 64-bit). Compared with other remote access software, WBD does not have a server program in the traditional sense. WBD provides a server DLL, and users need to write server programs according to their needs. Therefore, WBD maximally meets the individual needs of users. WBD client is a kernel-mode driver, it hides its traces as much as possible, and the goal is to keep the user's attention as little as possible. WBD client can run user-defined programs when system starts, user-defined programs do not store on the disk in the form of files, and there are no startup entries in the registry. As WBD may be used illegally, when WBD client starts, it outputs a text file to the desktop or the root of system drive to inform its existence and how to uninstall manually.
+Windows Batch Deployment (you can simply call it as "WBD") is a programmable and rootkit-like remote access tool, it supports from Windows XP to Windows 10 (32-bit and 64-bit). Compared with other remote access software, WBD does not have a server program in the traditional sense. WBD provides a server DLL, and users need to write server programs according to their needs. Therefore, WBD maximally meets the individual needs of users. WBD client is a kernel-mode driver, it hides its traces as much as possible, and the goal is to keep the user's attention as little as possible. WBD client can run user-defined programs when system starts, user-defined programs do not store on the disk in the form of files, and there are no startup entries in the registry. As WBD may be used illegally, when WBD client starts, it outputs a text file to the desktop or the root of system drive to inform its existence and how to uninstall it manually. Disclaimer: You can only use WBD on your computers or computers which you are allowed to access, I will not be responsible for any consequences and losses caused by the abuse of it. Until you fully understand how to use WBD, please test it in virtual machines only.
 
 ### Main Features
 1. File management (upload, download, copy, delete, rename, etc.).
@@ -43,11 +39,14 @@ In order to optimize the page load speed in low quality network environments, I 
 ### E-MAIL: AxtMueller#gmx.de (Replace # with @)
 1. If you find bugs, have constructive suggestions or would like to purchase a paid service, please let me know.  
 2. You'd better write E-MAIL in English or German, I only reply to E-MAILs that I am interested in.
+3. In order to disclose as little personal information as possible (IP address, online time, etc.), I do not use instant messaging. Just write what you want in the E-MAIL.
+4. In order to reduce the impact of the Internet on real life, I also do not use Facebook, Twitter, etc. Please don't ask me for such information via E-MAIL.
+
 ### Paid services:
 1. Binary customization I: Remove or modify all obvious characteristics of public WBD client.
 2. Binary customization II: More powerful self-protection for WBD client.
-3. Source code: Provide you the entire source code of WBD.
-4. Source code customization: Provide you the entire source code of WBD, and add features based on your needs. In other words, if you want to add new features to WBD, you must first purchase the source code. I do not provide "source code customization" service for customers who have not purchased the source code.
+3. Source code: All source code of WBD, including client and server.
+4. Source code customization: Add features to WBD according to your needs. This service is only available to customers who have purchased the WBD source code.
 
 # [Revision History](/binaries/README.md#all-revision-history)
 ### Client Version: 20200505
